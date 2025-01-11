@@ -1,0 +1,30 @@
+/* style.css */
+
+h3 {
+    border-left: 3px solid #0000ff80;
+    font-size: larger;
+}
+
+.ancestor,
+.child {
+    font-size: larger;
+    text-align: justify;
+}
+
+.child {
+    width: 600px;
+    border: 1px;
+    background-color: #00000080;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.ancestor {
+    width: 700px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
